@@ -1,0 +1,91 @@
+santh@Supritha MINGW64 /d/DockerExamples/frontend
+$ git init
+Initialized empty Git repository in D:/DockerExamples/frontend/.git/
+
+santh@Supritha MINGW64 /d/DockerExamples/frontend (master)
+$ git add .
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Dockerfile', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Dockerfile.dev', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docker-compose.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/robots.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.test.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/reportWebVitals.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/setupTests.js', LF will be replaced by CRLF the next time Git touches it
+
+santh@Supritha MINGW64 /d/DockerExamples/frontend (master)
+$ git commit -m "first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'santh@Supritha.(none)')
+
+santh@Supritha MINGW64 /d/DockerExamples/frontend (master)
+$ ^C
+
+santh@Supritha MINGW64 /d/DockerExamples/frontend (master)
+$  git config --global user.email "santhruptimd@gmail.com"
+
+santh@Supritha MINGW64 /d/DockerExamples/frontend (master)
+$ git config --global user.name "supritha"
+
+santh@Supritha MINGW64 /d/DockerExamples/frontend (master)
+$ git commit -m "first commit"
+[master (root-commit) d7de5af] first commit
+ 21 files changed, 17631 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Dockerfile
+ create mode 100644 Dockerfile.dev
+ create mode 100644 README.md
+ create mode 100644 docker-compose.yml
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.html
+ create mode 100644 public/logo192.png
+ create mode 100644 public/logo512.png
+ create mode 100644 public/manifest.json
+ create mode 100644 public/robots.txt
+ create mode 100644 src/App.css
+ create mode 100644 src/App.js
+ create mode 100644 src/App.test.js
+ create mode 100644 src/index.css
+ create mode 100644 src/index.js
+ create mode 100644 src/logo.svg
+ create mode 100644 src/reportWebVitals.js
+ create mode 100644 src/setupTests.js
+
+santh@Supritha MINGW64 /d/DockerExamples/frontend (master)
+$ git remote add origin https://github.com/suprithamd/docker-react.git
+
+santh@Supritha MINGW64 /d/DockerExamples/frontend (master)
+$ git push origin master
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (25/25), done.
+Writing objects: 100% (25/25), 172.22 KiB | 4.00 MiB/s, done.
+Total 25 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/suprithamd/docker-react.git
+ * [new branch]      master -> master
+
+santh@Supritha MINGW64 /d/DockerExamples/frontend (master)
+$
